@@ -1,0 +1,54 @@
+{
+  "borehole_id": "BH-01",
+  "project_name": "Metropolitan Light Rail Transit - Sector 4 Geotechnical Survey",
+  "location": "North Substation Zone B (Chainage 14+250)",
+  "drilling_method": "Rotary Wash Boring (HWT Casing)",
+  "elevation_m": 214.5,
+  "water_table_depth_m": 3.8,
+  "total_depth_m": 18.0,
+  "logged_date": "2024-04-12",
+  "strata": [
+    {
+      "layer_number": 1,
+      "depth_from_m": 0.0,
+      "depth_to_m": 1.5,
+      "thickness_m": 1.5,
+      "uscs_group": "SM",
+      "lithology_description": "Topsoil and dark brown silty SAND with rootlets, loose, moist",
+      "consistency_or_density": "Loose"
+    },
+    {
+      "layer_number": 2,
+      "depth_from_m": 1.5,
+      "depth_to_m": 6.2,
+      "thickness_m": 4.7,
+      "uscs_group": "CL",
+      "lithology_description": "Firm to stiff reddish-brown silty CLAY with trace subrounded gravels",
+      "consistency_or_density": "Stiff"
+    },
+    {
+      "layer_number": 3,
+      "depth_from_m": 6.2,
+      "depth_to_m": 12.0,
+      "thickness_m": 5.8,
+      "uscs_group": "SP-SM",
+      "lithology_description": "Dense grey fine-to-medium SAND with trace mica, saturated",
+      "consistency_or_density": "Dense"
+    },
+    {
+      "layer_number": 4,
+      "depth_from_m": 12.0,
+      "depth_to_m": 18.0,
+      "thickness_m": 6.0,
+      "uscs_group": "CH",
+      "lithology_description": "Very stiff bluish-grey high-plasticity CLAY (Weathered Mudstone contact)",
+      "consistency_or_density": "Very Stiff"
+    }
+  ],
+  "spt_records": [
+    { "sample_id": "SPT-1", "depth_m": 2.0, "blow_counts": [3, 5, 6], "n_value": 11, "recovery_percent": 85.0 },
+    { "sample_id": "SPT-2", "depth_m": 4.5, "blow_counts": [6, 8, 9], "n_value": 17, "recovery_percent": 90.0 },
+    { "sample_id": "SPT-3", "depth_m": 8.0, "blow_counts": [12, 16, 18], "n_value": 34, "recovery_percent": 95.0 },
+    { "sample_id": "SPT-4", "depth_m": 14.0, "blow_counts": [14, 18, 22], "n_value": 40, "recovery_percent": 100.0 }
+  ]
+}

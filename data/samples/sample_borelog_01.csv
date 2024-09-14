@@ -1,0 +1,5 @@
+Layer,Depth_From_m,Depth_To_m,Thickness_m,USCS,Lithology_Description,Consistency_Density
+1,0.0,1.5,1.5,SM,"Topsoil and dark brown silty SAND with rootlets, loose, moist",Loose
+2,1.5,6.2,4.7,CL,"Firm to stiff reddish-brown silty CLAY with trace subrounded gravels",Stiff
+3,6.2,12.0,5.8,SP-SM,"Dense grey fine-to-medium SAND with trace mica, saturated",Dense
+4,12.0,18.0,6.0,CH,"Very stiff bluish-grey high-plasticity CLAY (Weathered Mudstone contact)",Very Stiff
