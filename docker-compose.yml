@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  borelog-api:
+    build: .
+    container_name: borelog-extractor-api
+    ports:
+      - "8000:8000"
+    environment:
+      - DONUT_MODE=mock
+      - APP_PORT=8000
+    volumes:
+      - ./data/samples:/app/data/samples
+      - ./data/output:/app/data/output
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
